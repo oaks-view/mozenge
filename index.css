@@ -1,0 +1,75 @@
+body {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #1c3a5c;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 3rem;
+  font-family: 'Nunito';
+}
+
+.bio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #1c3a5c;
+  box-shadow: 20px 20px 60px #18314e, -20px -20px 60px #20436a;
+  height: 200px;
+  width: 200px;
+}
+
+.photo {
+  width: 85%;
+  height: 85%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.social-media-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 0 2rem 0;
+}
+
+#bio {
+    margin-left: 2rem;
+    font-weight: 100;
+}
+
+.social-media-button {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-button > a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  text-decoration: none;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #193453, #1e3e62);
+  box-shadow: 10px 10px 19px #18314e, -10px -10px 19px #20436a;
+}
+
+.social-media-button > a > span {
+  color: #ffffff;
+}
